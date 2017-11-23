@@ -1,0 +1,6 @@
+c:\users\richard brown thomse\documents\visual studio 2017\Projects\Zoo\Zoo\obj\Debug\Zoo.csprojResolveAssemblyReference.cache
+c:\users\richard brown thomse\documents\visual studio 2017\Projects\Zoo\Zoo\bin\Debug\Zoo.exe.config
+c:\users\richard brown thomse\documents\visual studio 2017\Projects\Zoo\Zoo\bin\Debug\Zoo.exe
+c:\users\richard brown thomse\documents\visual studio 2017\Projects\Zoo\Zoo\bin\Debug\Zoo.pdb
+c:\users\richard brown thomse\documents\visual studio 2017\Projects\Zoo\Zoo\obj\Debug\Zoo.exe
+c:\users\richard brown thomse\documents\visual studio 2017\Projects\Zoo\Zoo\obj\Debug\Zoo.pdb
