@@ -4,3 +4,9 @@ c:\users\richard brown thomse\documents\visual studio 2017\Projects\Zoo\Zoo\bin\
 c:\users\richard brown thomse\documents\visual studio 2017\Projects\Zoo\Zoo\bin\Debug\Zoo.pdb
 c:\users\richard brown thomse\documents\visual studio 2017\Projects\Zoo\Zoo\obj\Debug\Zoo.exe
 c:\users\richard brown thomse\documents\visual studio 2017\Projects\Zoo\Zoo\obj\Debug\Zoo.pdb
+C:\Users\Richard Brown Thomse\Documents\SkoleOpgaver\Zoo\Zoo\bin\Debug\Zoo.exe.config
+C:\Users\Richard Brown Thomse\Documents\SkoleOpgaver\Zoo\Zoo\bin\Debug\Zoo.exe
+C:\Users\Richard Brown Thomse\Documents\SkoleOpgaver\Zoo\Zoo\bin\Debug\Zoo.pdb
+C:\Users\Richard Brown Thomse\Documents\SkoleOpgaver\Zoo\Zoo\obj\Debug\Zoo.csprojResolveAssemblyReference.cache
+C:\Users\Richard Brown Thomse\Documents\SkoleOpgaver\Zoo\Zoo\obj\Debug\Zoo.exe
+C:\Users\Richard Brown Thomse\Documents\SkoleOpgaver\Zoo\Zoo\obj\Debug\Zoo.pdb

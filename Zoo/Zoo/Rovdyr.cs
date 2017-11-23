@@ -48,9 +48,16 @@ namespace Zoo
     }
     class Leopard : Rovdyr
     {
-        public Leopard()
+        public void AddLeopard()
         {
-            count = 76;
+            int i = 0;
+            count = 72;
+            while (i <= count)
+            {
+                Dyreliste.Add(listcount + " Leopard");
+                i++;
+                listcount++;
+            }
         }
 
     }

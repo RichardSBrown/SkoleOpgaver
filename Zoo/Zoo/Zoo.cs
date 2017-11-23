@@ -15,6 +15,8 @@ namespace Zoo
         {
             Animal animal = new Animal();
             Pingvin pingvin = new Pingvin();
+            Rovdyr rovdyr = new Rovdyr();
+            
 
 
 

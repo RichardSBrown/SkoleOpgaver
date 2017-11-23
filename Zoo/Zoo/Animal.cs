@@ -21,8 +21,25 @@ namespace Zoo
         {
             Løver løver = new Løver();
             Tiger tiger = new Tiger();
-            løver.AddLøver();
+            Leopard leopard = new Leopard();
+            Guldfisk guldfisk = new Guldfisk();
+            Ørred ørred = new Ørred();
+            Rødspætte rødspætte = new Rødspætte();
+
+            //RovDyr
             tiger.AddTiger();
+            løver.AddLøver();
+            leopard.AddLeopard();
+            //Fisk
+            int guldfiskcount = guldfisk.getcount();
+            int ørredcount = ørred.getcount();
+            int rødspættecount = rødspætte.getcount();
+            Console.WriteLine("Guldfisk: " + guldfiskcount);
+            Console.WriteLine("Ørred: " + ørredcount);
+            Console.WriteLine("Rødspætte: " + rødspættecount);
+            //Fugle
+
+
         }
         public int getcount()
         {
