@@ -171,7 +171,7 @@
             // TxtTopWards
             // 
             this.TxtTopWards.AcceptsTab = true;
-            this.TxtTopWards.Location = new System.Drawing.Point(107, 36);
+            this.TxtTopWards.Location = new System.Drawing.Point(107, 32);
             this.TxtTopWards.Name = "TxtTopWards";
             this.TxtTopWards.Size = new System.Drawing.Size(34, 20);
             this.TxtTopWards.TabIndex = 11;
@@ -179,7 +179,7 @@
             // TxtJungleWards
             // 
             this.TxtJungleWards.AcceptsTab = true;
-            this.TxtJungleWards.Location = new System.Drawing.Point(107, 61);
+            this.TxtJungleWards.Location = new System.Drawing.Point(107, 57);
             this.TxtJungleWards.Name = "TxtJungleWards";
             this.TxtJungleWards.Size = new System.Drawing.Size(34, 20);
             this.TxtJungleWards.TabIndex = 12;
@@ -187,7 +187,7 @@
             // TxtMidWards
             // 
             this.TxtMidWards.AcceptsTab = true;
-            this.TxtMidWards.Location = new System.Drawing.Point(107, 90);
+            this.TxtMidWards.Location = new System.Drawing.Point(107, 86);
             this.TxtMidWards.Name = "TxtMidWards";
             this.TxtMidWards.Size = new System.Drawing.Size(34, 20);
             this.TxtMidWards.TabIndex = 13;
@@ -195,7 +195,7 @@
             // TxtADCWards
             // 
             this.TxtADCWards.AcceptsTab = true;
-            this.TxtADCWards.Location = new System.Drawing.Point(107, 116);
+            this.TxtADCWards.Location = new System.Drawing.Point(107, 112);
             this.TxtADCWards.Name = "TxtADCWards";
             this.TxtADCWards.Size = new System.Drawing.Size(34, 20);
             this.TxtADCWards.TabIndex = 14;
@@ -203,7 +203,7 @@
             // TxtSupportWards
             // 
             this.TxtSupportWards.AcceptsTab = true;
-            this.TxtSupportWards.Location = new System.Drawing.Point(107, 144);
+            this.TxtSupportWards.Location = new System.Drawing.Point(107, 140);
             this.TxtSupportWards.Name = "TxtSupportWards";
             this.TxtSupportWards.Size = new System.Drawing.Size(34, 20);
             this.TxtSupportWards.TabIndex = 15;

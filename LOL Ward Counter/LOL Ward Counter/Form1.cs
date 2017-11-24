@@ -119,7 +119,7 @@ namespace LOL_Ward_Counter
             TopTotalPWards = TopTotalPWards + TopPWards;
             TopGnsPWards = TopTotalPWards / GameCounter;
             TopGreenTotalWards = TopGreenTotalWards + TopWards;
-            TopGnsWards = TopGnsWards / GameCounter;
+            TopGnsWards = TopGreenTotalWards / GameCounter;
             //End of Top
 
             /*//Jungle
