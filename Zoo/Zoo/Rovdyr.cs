@@ -16,48 +16,28 @@ namespace Zoo
     }
     class Løver : Rovdyr
     {
-        public void AddLøver()
+        public Løver()
         {
-            int i = 0;
-            count = 55;
-            while (i <= count)
-            {
-                Dyreliste.Add(listcount + " Løve");
-                i++;
-                listcount++;
-            }
-
-
+            name = "Løver";
+            count = 5;
         }
 
     }
     class Tiger : Rovdyr
     {
-        public void AddTiger()
+        public Tiger()
         {
-            int i = 0;
-            count = 88;
-            while (i <= count)
-            {
-                Dyreliste.Add(listcount + " Tiger");
-                i++;
-                listcount++;
-            }
+            name = "Tiger";
+            count = 5;
         }
 
     }
     class Leopard : Rovdyr
     {
-        public void AddLeopard()
+        public Leopard()
         {
-            int i = 0;
-            count = 72;
-            while (i <= count)
-            {
-                Dyreliste.Add(listcount + " Leopard");
-                i++;
-                listcount++;
-            }
+            name = "Leopard";
+            count = 7;
         }
 
     }

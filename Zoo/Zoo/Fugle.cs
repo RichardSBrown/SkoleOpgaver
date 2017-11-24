@@ -7,43 +7,34 @@ using System.Threading.Tasks;
 namespace Zoo
 {
     class Fugle : Animal
-    {
-        protected int pingvincount;
-        protected int spættecount;
-        protected int storkcount;
-        
-        
+    {      
         public Fugle()
         {
-            fulgecount = pingvincount + spættecount + storkcount; //Mulighed for at få vist hvor mange fulge der er OBS! uden et navn.
+            
         }
-
     }
     class Pingvin : Fugle
     {
         public Pingvin()
         {
-            count = 117;
-            pingvincount = count;
+            count = 1;
+            name = "Pingvin";
         }
-        
     }
     class Spætte : Fugle
     {
         public Spætte()
         {
-            count = 3050;
-            spættecount = count;
+            count = 3;
+            name = "Spætte";
         }
-
     }
     class Stork : Fugle
     {
         public Stork()
         {
-            count = 2; //De andre leverde baby'er
-            storkcount = count;
+            count = 2;
+            name = "Stork";
         }
-
     }
 }

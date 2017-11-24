@@ -17,8 +17,8 @@ namespace Zoo
     {
         public Guldfisk()
         {
-            name = "Geo";
-            count = 55;
+            name = "Guldfisk";
+            count = 5;
             
         }
         
@@ -27,7 +27,8 @@ namespace Zoo
     {
         public Ørred()
         {
-            count = 42;
+            name = "Ørred";
+            count = 4;
         }
 
     }
@@ -35,7 +36,8 @@ namespace Zoo
     {
         public Rødspætte()
         {
-            count = 22;
+            name = "Rødspætte";
+            count = 2;
         }
     }
 }
