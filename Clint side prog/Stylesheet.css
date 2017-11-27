@@ -1,0 +1,49 @@
+#Header{
+	background-image: url("Logo/Header.jpg");
+	height: 75px;
+	padding-top: 5px;
+	font-size: 50px;
+	font-family: Monospace;
+	font-style: italic;
+	
+}
+#UplayBackGround{
+	background-color: #55aad3;
+}
+
+#OriginBackGround{
+	background-color: #ed4700;
+}
+
+#Logo {
+	display: block;
+	color: red;
+	text-align: -webkit-center;
+	box-shadow: 0 0 20px 5px black;
+	margin-left: 34%;
+	width: 33%;
+	
+	}
+#Logo img{
+	height: auto;
+	width: auto;
+	max-height: 82px;
+	max-width:82px;
+	padding: left;
+	
+}
+
+#RightSidePic{
+	float: Right;
+	border-style: Solid;
+	border-color: #454545;
+}
+
+#SteamBackGround{
+	background: Black;
+	color: White;
+}
+
+#HyperLinks{
+	color: Yellow;
+}
