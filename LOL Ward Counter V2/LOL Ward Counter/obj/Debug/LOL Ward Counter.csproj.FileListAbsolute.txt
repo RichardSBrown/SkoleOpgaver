@@ -1,0 +1,29 @@
+C:\Users\Richard Brown Thomse\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\bin\Debug\LOL Ward Counter.exe.config
+C:\Users\Richard Brown Thomse\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\bin\Debug\LOL Ward Counter.exe
+C:\Users\Richard Brown Thomse\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\bin\Debug\LOL Ward Counter.pdb
+C:\Users\Richard Brown Thomse\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\obj\Debug\LOL Ward Counter.csprojResolveAssemblyReference.cache
+C:\Users\Richard Brown Thomse\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\obj\Debug\LOL_Ward_Counter.Form1.resources
+C:\Users\Richard Brown Thomse\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\obj\Debug\LOL_Ward_Counter.Properties.Resources.resources
+C:\Users\Richard Brown Thomse\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\obj\Debug\LOL Ward Counter.csproj.GenerateResource.Cache
+C:\Users\Richard Brown Thomse\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\obj\Debug\LOL Ward Counter.exe
+C:\Users\Richard Brown Thomse\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\obj\Debug\LOL Ward Counter.pdb
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\bin\Debug\LOL Ward Counter.exe.config
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\bin\Debug\LOL Ward Counter.exe
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\bin\Debug\LOL Ward Counter.pdb
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\obj\Debug\LOL Ward Counter.csprojResolveAssemblyReference.cache
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\obj\Debug\LOL_Ward_Counter.Form1.resources
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\obj\Debug\LOL_Ward_Counter.Properties.Resources.resources
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\obj\Debug\LOL Ward Counter.csproj.GenerateResource.Cache
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\obj\Debug\LOL Ward Counter.csproj.CoreCompileInputs.cache
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\obj\Debug\LOL Ward Counter.exe
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter\LOL Ward Counter\obj\Debug\LOL Ward Counter.pdb
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter V2\LOL Ward Counter\bin\Debug\LOL Ward Counter.exe.config
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter V2\LOL Ward Counter\bin\Debug\LOL Ward Counter.exe
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter V2\LOL Ward Counter\bin\Debug\LOL Ward Counter.pdb
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter V2\LOL Ward Counter\obj\Debug\LOL Ward Counter.csprojResolveAssemblyReference.cache
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter V2\LOL Ward Counter\obj\Debug\LOL_Ward_Counter.Form1.resources
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter V2\LOL Ward Counter\obj\Debug\LOL_Ward_Counter.Properties.Resources.resources
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter V2\LOL Ward Counter\obj\Debug\LOL Ward Counter.csproj.GenerateResource.Cache
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter V2\LOL Ward Counter\obj\Debug\LOL Ward Counter.csproj.CoreCompileInputs.cache
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter V2\LOL Ward Counter\obj\Debug\LOL Ward Counter.exe
+C:\Users\Dumbass\Documents\SkoleOpgaver\LOL Ward Counter V2\LOL Ward Counter\obj\Debug\LOL Ward Counter.pdb
