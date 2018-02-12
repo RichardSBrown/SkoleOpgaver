@@ -63,6 +63,7 @@ namespace LOL_Ward_Counter
             CheckBoxs();
             Calculate();
             ConvertBackToString();
+            ResetNumb();
             //Add team Gns at some ponit
         }
 
@@ -176,6 +177,20 @@ namespace LOL_Ward_Counter
             TxtSupportGnsWards.Text = Convert.ToString(SupportGnsWards);
             //End of Support
             //End of Convert to string */
+        }
+        
+        public void ResetNumb()
+        {
+            TxtADCPWards.Text = "";
+            TxtADCWards.Text = "";
+            TxtSupportPWards.Text = "";
+            TxtSupportWards.Text = "";
+            TxtMidPWards.Text = "";
+            TxtMidWards.Text = "";
+            TxtJunglePWards.Text = "";
+            TxtJungleWards.Text = "";
+            TxtTopPWards.Text = "";
+            TxtTopWards.Text = "";
         }
     }
 }
