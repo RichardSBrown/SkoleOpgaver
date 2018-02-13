@@ -36,51 +36,27 @@ namespace LOL_Ward_Counter
         //End of raw input
 
         //Calculated numbers
-        Double Top10Wards;
         Double TopTotalWards = 0;
         Double TopTotalPWards = 0;
-        Double TopGreenTotalWards = 0;
-        Double TopGnsTotalWards;
-        Double TopGnsPWards;
-        Double TopGnsWards;
-        Double TopGns10Wards;
-        Double TopGns135Wards;
+        Double TopWardRatioGame;
 
         Double JungleTotalWards = 0;
         Double JungleTotalPWards = 0;
-        Double JungleGreenTotalWards = 0;
-        Double JungleGnsTotalWards;
-        Double JungleGnsPWards;
-        Double JungleGnsWards;
-        Double JungleGns10Wards;
-        Double JungleGns135Wards;
+        Double JungleWardRatioGame;
 
         Double MidTotalWards = 0;
         Double MidTotalPWards = 0;
-        Double MidGreenTotalWards = 0;
-        Double MidGnsTotalWards;
-        Double MidGnsPWards;
-        Double MidGnsWards;
-        Double MidGns10Wards;
-        Double MidGns135Wards;
+        Double MidWardRatioGame;
 
         Double ADCTotalWards = 0;
         Double ADCTotalPWards = 0;
-        Double ADCGreenTotalWards = 0;
-        Double ADCGnsTotalWards;
-        Double ADCGnsPWards;
-        Double ADCGnsWards;
-        Double ADCGns10Wards;
-        Double ADCGns135Wards;
+        Double ADCWardRatioGame;
 
         Double SupportTotalWards = 0;
         Double SupportTotalPWards = 0;
-        Double SupportGreenTotalWards = 0;
-        Double SupportGnsTotalWards;
-        Double SupportGnsPWards;
-        Double SupportGnsWards;
-        Double SupportGns10Wards;
-        Double SupportGns35Wards;
+        Double SupportWardRatioGame;
+
+
         //End of Calculated numbers
 
         public Form1()
@@ -113,22 +89,13 @@ namespace LOL_Ward_Counter
 
         public void TopData()
         {
-            TopTotalWards = TotalWards(TopTotalWards, TopWards);
-
+            TopTotalWards = TotalWards(TopTotalWards, TopWards); // Top Total Ward.
             TxtTopGnsTotalWards.Text = Convert.ToString(Total(TopTotalWards, GameCounter));  // Top Gns Total wards. VIRKER
-
             TxtTopGnsWards.Text = Convert.ToString(PrTenMin(TotalGameTime, TopTotalWards)); // Top Gns pr 10 min. VIRKER
-
-
-
-            Top10Wards = WardRatio(GameTime, TopTotalWards); // Top gns pr 135 sec.
-
-
-
-            TxtTopSec.Text = Convert.ToString(TopGns10Wards + Top10Wards);
-
+            TopWardRatioGame = WardRatio(GameTime, TopTotalWards); // Top gns pr 135 sec.
+            TxtTopSec.Text = Convert.ToString(TopWardRatioGame) + TxtTopSec.Text; // Virker tror jeg :/
             TxtTopGnsPWards.Text = Convert.ToString(TotalPWards(TopPWards, TopTotalPWards)); // Top Gns Pink Wards. VIRKER
-
+       
             TxtTopWards.Text = "";
             TxtTopPWards.Text = "";
 
@@ -136,40 +103,48 @@ namespace LOL_Ward_Counter
 
         public void JungleData()
         {
-            TxtJungleGnsTotalWards.Text = Convert.ToString(Total(JungleGnsTotalWards, GameCounter));  // Top Gns Total wards.
-            TxtJungleGnsWards.Text = Convert.ToString(PrTenMin(TotalGameTime, JungleTotalWards)); // Top Gns pr 10 min.
-            TxtJungleSec.Text = Convert.ToString(WardRatio(TotalGameTime, JungleWards)); // Top gns pr 135 sec.
-            TxtJungleGnsPWards.Text = Convert.ToString(TotalPWards(JunglePWards, JungleTotalPWards)); // Top Gns Pink Wards.
+            JungleTotalWards = TotalWards(JungleTotalWards, JungleWards); // Top Total Ward.
+            TxtJungleGnsTotalWards.Text = Convert.ToString(Total(JungleTotalWards, GameCounter));  // Top Gns Total wards. VIRKER
+            TxtJungleGnsWards.Text = Convert.ToString(PrTenMin(TotalGameTime, JungleTotalWards)); // Top Gns pr 10 min. VIRKER
+            JungleWardRatioGame = WardRatio(GameTime, JungleTotalWards); // Top gns pr 135 sec.
+            TxtJungleSec.Text = Convert.ToString(JungleWardRatioGame) + TxtJungleSec.Text; // Virker tror jeg :/
+            TxtJungleGnsPWards.Text = Convert.ToString(TotalPWards(JunglePWards, JungleTotalPWards)); // Top Gns Pink Wards. VIRKER
             TxtJungleWards.Text = "";
             TxtJunglePWards.Text = "";
         }
 
         public void MidData()
         {
-            TxtMidGnsTotalWards.Text = Convert.ToString(Total(MidGnsTotalWards, GameCounter));  // Top Gns Total wards.
-            TxtMidGnsWards.Text = Convert.ToString(PrTenMin(TotalGameTime, MidTotalWards)); // Top Gns pr 10 min.
-            TxtMidSec.Text = Convert.ToString(WardRatio(TotalGameTime, MidWards)); // Top gns pr 135 sec.
-            TxtMidGnsPWards.Text = Convert.ToString(TotalPWards(MidPWards, MidTotalPWards)); // Top Gns Pink Wards.
+            MidTotalWards = TotalWards(MidTotalWards, MidWards); // Top Total Ward.
+            TxtMidGnsTotalWards.Text = Convert.ToString(Total(MidTotalWards, GameCounter));  // Top Gns Total wards. VIRKER
+            TxtMidGnsWards.Text = Convert.ToString(PrTenMin(TotalGameTime, MidTotalWards)); // Top Gns pr 10 min. VIRKER
+            MidWardRatioGame = WardRatio(GameTime, MidTotalWards); // Top gns pr 135 sec.
+            TxtMidSec.Text = Convert.ToString(MidWardRatioGame) + TxtMidSec.Text; // Virker tror jeg :/
+            TxtMidGnsPWards.Text = Convert.ToString(TotalPWards(MidPWards, MidTotalPWards)); // Top Gns Pink Wards. VIRKER
             TxtMidWards.Text = "";
             TxtMidPWards.Text = "";
         }
 
         public void ADCData()
         {
-            TxtADCGnsTotalWards.Text = Convert.ToString(Total(ADCGnsTotalWards, GameCounter));  // Top Gns Total wards.
-            TxtADCGnsWards.Text = Convert.ToString(PrTenMin(TotalGameTime, ADCTotalWards)); // Top Gns pr 10 min.
-            TxtADCSec.Text = Convert.ToString(WardRatio(TotalGameTime, ADCWards)); // Top gns pr 135 sec.
-            TxtADCGnsPWards.Text = Convert.ToString(TotalPWards(ADCPWards, ADCTotalPWards)); // Top Gns Pink Wards.
+            ADCTotalWards = TotalWards(ADCTotalWards, ADCWards); // Top Total Ward.
+            TxtADCGnsTotalWards.Text = Convert.ToString(Total(ADCTotalWards, GameCounter));  // Top Gns Total wards. VIRKER
+            TxtADCGnsWards.Text = Convert.ToString(PrTenMin(TotalGameTime, ADCTotalWards)); // Top Gns pr 10 min. VIRKER
+            ADCWardRatioGame = WardRatio(GameTime, ADCTotalWards); // Top gns pr 135 sec.
+            TxtADCSec.Text = Convert.ToString(ADCWardRatioGame) + TxtADCSec.Text; // Virker tror jeg :/
+            TxtADCGnsPWards.Text = Convert.ToString(TotalPWards(ADCPWards, ADCTotalPWards)); // Top Gns Pink Wards. VIRKER
             TxtADCWards.Text = "";
             TxtADCPWards.Text = "";
         }
 
         public void SupportData()
         {
-            TxtSupportGnsTotalWards.Text = Convert.ToString(Total(SupportGnsTotalWards, GameCounter));  // Top Gns Total wards.
-            TxtSupportGnsWards.Text = Convert.ToString(PrTenMin(TotalGameTime, SupportTotalWards)); // Top Gns pr 10 min.
-            TxtSupportSec.Text = Convert.ToString(WardRatio(TotalGameTime, SupportWards)); // Top gns pr 135 sec.
-            TxtSupportGnsPWards.Text = Convert.ToString(TotalPWards(SupportPWards, SupportTotalPWards)); // Top Gns Pink Wards.
+            SupportTotalWards = TotalWards(TopTotalWards, TopWards); // Top Total Ward.
+            TxtSupportGnsTotalWards.Text = Convert.ToString(Total(TopTotalWards, GameCounter));  // Top Gns Total wards. VIRKER
+            TxtSupportGnsWards.Text = Convert.ToString(PrTenMin(TotalGameTime, TopTotalWards)); // Top Gns pr 10 min. VIRKER
+            SupportWardRatioGame = WardRatio(GameTime, TopTotalWards); // Top gns pr 135 sec.
+            TxtSupportSec.Text = Convert.ToString(SupportWardRatioGame) + TxtTopSec.Text; // Virker tror jeg :/
+            TxtSupportGnsPWards.Text = Convert.ToString(TotalPWards(SupportPWards, SupportTotalPWards)); // Top Gns Pink Wards. VIRKER
             TxtSupportWards.Text = "";
             TxtSupportPWards.Text = "";
         }
