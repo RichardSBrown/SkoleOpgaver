@@ -25,6 +25,7 @@ namespace LOL_Ward_Counter
         int MidPWards;
         int ADCPWards;
         int SupportPWards;
+        int GameTime;
         //End of raw input
 
         //Calculated numbers
@@ -98,6 +99,7 @@ namespace LOL_Ward_Counter
                 MidPWards = Convert.ToInt16(TxtMidPWards.Text);
                 ADCPWards = Convert.ToInt16(TxtADCPWards.Text);
                 SupportPWards = Convert.ToInt16(TxtSupportPWards.Text);
+                GameTime = Convert.ToInt16(txtGameTime.Text);
             }
             catch
             {
@@ -113,17 +115,20 @@ namespace LOL_Ward_Counter
 
         public void Calculate()
         {
-            //Top
+            // Timer
+            // End of Timer
 
+
+            //Top
             TopTotalWards = TopTotalWards + TopWards + TopPWards;
-            TopGnsTotalWards = TopTotalWards / GameCounter;
+            TopGnsTotalWards = TopTotalWards / GameTime * 10;
             TopTotalPWards = TopTotalPWards + TopPWards;
-            TopGnsPWards = TopTotalPWards / GameCounter;
+            TopGnsPWards = TopTotalPWards / GameTime * 10;
             TopGreenTotalWards = TopGreenTotalWards + TopWards;
-            TopGnsWards = TopGreenTotalWards / GameCounter;
+            TopGnsWards = TopGreenTotalWards / GameTime * 10;
             //End of Top
 
-            /*//Jungle
+            //Jungle
             JungleGnsTotalWards = JungleWards + JunglePWards / GameCounter;
             JungleGnsPWards = JunglePWards / GameCounter;
             JungleGnsWards = JungleWards / GameCounter;
@@ -145,7 +150,7 @@ namespace LOL_Ward_Counter
             SupportGnsTotalWards = SupportWards + SupportPWards / GameCounter;
             SupportGnsPWards = SupportPWards / GameCounter;
             SupportGnsWards = SupportWards / GameCounter;
-            //End of Support */
+            //End of Support
         }
 
         public void ConvertBackToString()

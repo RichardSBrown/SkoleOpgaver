@@ -66,6 +66,8 @@
             this.TxtTopGnsTotalWards = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.LGamesCounter = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txtGameTime = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // butSubmit
@@ -386,11 +388,29 @@
             this.LGamesCounter.TabIndex = 37;
             this.LGamesCounter.Text = "---";
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(151, 190);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(90, 13);
+            this.label12.TabIndex = 38;
+            this.label12.Text = "Game Time (Min):";
+            // 
+            // txtGameTime
+            // 
+            this.txtGameTime.Location = new System.Drawing.Point(248, 187);
+            this.txtGameTime.Name = "txtGameTime";
+            this.txtGameTime.Size = new System.Drawing.Size(80, 20);
+            this.txtGameTime.TabIndex = 39;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(427, 226);
+            this.Controls.Add(this.txtGameTime);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.LGamesCounter);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.TxtSupportGnsTotalWards);
@@ -476,6 +496,8 @@
         private System.Windows.Forms.TextBox TxtTopGnsTotalWards;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label LGamesCounter;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox txtGameTime;
     }
 }
 
